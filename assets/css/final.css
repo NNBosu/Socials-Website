@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: #181821;
+    color: #D4D4D8;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://cdn.ayo.so/804f656b5fd1e3bc2906ea4d5f339074e5c0c4f14f96308f.gif) no-repeat;
+    background-size: cover;
+    /* background-color: greenyellow; */
+    height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+    height: 50vh;
+    width: 485px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* position: absolute; 
+  top: 30vh;
+  left: 75vh; */
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.line {
+    font-size: 5px;
+}
+
+.line2 {
+    font-size: 5px;
+}
+
+.name p2 {
+    color: #9CA3AF;
+    font-size: .855rem;
+}
+
+.name p {
+    /* position: relative; */
+    /* top: 0vh; */
+    color: #6B7280;
+    font-size: 13px;
+}
+
+.name img {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    top: 20px;
+}
+
+.name h1 {
+    padding-top: 20px;
+}
+
+.mt-4 {
+    position: relative;
+    left: -0.8vh;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+    border: 2px solid #3f3f4680;
+    font-size: 11px;
+    width: 10vh;
+    /* position: absolute; */
+    /* left: 21vh; */
+    border-radius: 5px;
+    height: 4vh;
+}
+
+.w-3 img {
+    height: 2.5vh;
+    width: 2.5vh;
+    position: relative;
+    top: 5px;
+}
+
+.text-zinc-400.text-xs {
+    position: relative;
+    text-align: center;
+    width: 5vh;
+    font-size: 11px;
+}
+
+.social-links {
+    background: #181821;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20vh;
+    padding-top: 10vh;
+}
+
+.socialHead,
+.socialIcons {
+    background-color: transparent;
+}
+
+.socialIcons {
+    width: 200px;
+}
+
+.fa,
+.fa-brands {
+    background-color: transparent;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.fa-steam {
+    color: white;
+}
+
+.fa-discord {
+    color: #5865F2;
+}
+
+.fa-youtube {
+    color: #FF0000;
+}
+
+.socialHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialHead h4 {
+    font-size: 15px;
+    font-weight: 100;
+    opacity: 0.8;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media (max-width: 520px) {
+    .content {
+        padding: 30px;
+        margin: 20px;
+        width: fit-content;
+    }
+}
